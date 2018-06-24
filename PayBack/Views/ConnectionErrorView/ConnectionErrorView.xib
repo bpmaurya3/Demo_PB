@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ConnectionErrorView" customModule="PayBack" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLv-W0-DpV">
+                    <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ymt-S5-7up" customClass="DesignableNav" customModule="PayBack" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="77H-r3-U3e"/>
+                                <constraint firstAttribute="height" priority="250" constant="44" id="ei7-1L-YaG"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="ERROR"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="neterror" translatesAutoresizingMaskIntoConstraints="NO" id="ZY1-gf-Dmp">
+                            <rect key="frame" x="0.0" y="59" width="320" height="150"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="150" id="r7i-kF-mw3"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strong connections always work! :P" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jVE-4A-v6V">
+                            <rect key="frame" x="20" y="224" width="280" height="41"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We are talking about your internet connection. Check it while we keep your order safe with us!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BF7-HB-t8r">
+                            <rect key="frame" x="20" y="285" width="280" height="81.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rd5-nh-S0i" customClass="DesignableButton" customModule="PayBack" customModuleProvider="target">
+                            <rect key="frame" x="110" y="391.5" width="100" height="40"/>
+                            <color key="backgroundColor" red="0.9041005969" green="0.062839202580000003" blue="0.42733699079999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="0Fi-cc-4UR"/>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="LYa-hW-5p6"/>
+                            </constraints>
+                            <state key="normal" title="RETRY"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="retryAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="RR8-hY-SbQ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Ymt-S5-7up" firstAttribute="leading" secondItem="tLv-W0-DpV" secondAttribute="leading" id="1CU-Vz-BBn"/>
+                        <constraint firstItem="BF7-HB-t8r" firstAttribute="trailing" secondItem="jVE-4A-v6V" secondAttribute="trailing" id="2Pt-k6-7hQ"/>
+                        <constraint firstItem="rd5-nh-S0i" firstAttribute="centerX" secondItem="tLv-W0-DpV" secondAttribute="centerX" id="7LN-0T-1wd"/>
+                        <constraint firstItem="jVE-4A-v6V" firstAttribute="leading" secondItem="tLv-W0-DpV" secondAttribute="leading" constant="20" id="8GE-2P-xJ5"/>
+                        <constraint firstItem="rd5-nh-S0i" firstAttribute="top" secondItem="BF7-HB-t8r" secondAttribute="bottom" constant="25" id="971-Fh-inv"/>
+                        <constraint firstAttribute="trailing" secondItem="jVE-4A-v6V" secondAttribute="trailing" constant="20" id="9gS-sS-8lL"/>
+                        <constraint firstItem="jVE-4A-v6V" firstAttribute="top" secondItem="ZY1-gf-Dmp" secondAttribute="bottom" constant="15" id="Ivg-kL-vgO"/>
+                        <constraint firstItem="Ymt-S5-7up" firstAttribute="trailing" secondItem="tLv-W0-DpV" secondAttribute="trailing" id="Jbz-1H-P9u"/>
+                        <constraint firstItem="Ymt-S5-7up" firstAttribute="top" secondItem="tLv-W0-DpV" secondAttribute="top" id="Obe-ZA-ZnV"/>
+                        <constraint firstItem="ZY1-gf-Dmp" firstAttribute="trailing" secondItem="tLv-W0-DpV" secondAttribute="trailing" id="Pfl-gx-3fO"/>
+                        <constraint firstItem="BF7-HB-t8r" firstAttribute="leading" secondItem="jVE-4A-v6V" secondAttribute="leading" id="R9u-8x-Kmm"/>
+                        <constraint firstItem="BF7-HB-t8r" firstAttribute="top" secondItem="jVE-4A-v6V" secondAttribute="bottom" constant="20" id="YAy-An-X1V"/>
+                        <constraint firstItem="ZY1-gf-Dmp" firstAttribute="leading" secondItem="tLv-W0-DpV" secondAttribute="leading" id="aj1-QM-Uvh"/>
+                        <constraint firstItem="ZY1-gf-Dmp" firstAttribute="top" secondItem="Ymt-S5-7up" secondAttribute="bottom" constant="15" id="kkj-c1-XJl"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="tLv-W0-DpV" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="3Tr-cf-YfR"/>
+                <constraint firstItem="tLv-W0-DpV" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="8fx-HV-lfo"/>
+                <constraint firstItem="tLv-W0-DpV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="T0z-3Q-tlr"/>
+                <constraint firstItem="tLv-W0-DpV" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="l9g-Wy-fQ2"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="customNav" destination="Ymt-S5-7up" id="keu-py-nFO"/>
+                <outlet property="detailLabel" destination="BF7-HB-t8r" id="lUr-i8-p5Q"/>
+                <outlet property="retryButton" destination="rd5-nh-S0i" id="1AQ-l4-t9l"/>
+                <outlet property="titleLabel" destination="jVE-4A-v6V" id="wtX-OS-jKg"/>
+            </connections>
+            <point key="canvasLocation" x="49" y="-67"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="neterror" width="211" height="206"/>
+    </resources>
+</document>

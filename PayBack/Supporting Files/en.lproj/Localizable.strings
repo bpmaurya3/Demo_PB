@@ -1,0 +1,181 @@
+/* 1000 characters max */
+"1000 characters max" = "1000 characters max";
+
+/* A failure message telling the user that their address needs not be empty */
+"Address you have entered is incorrect" = "Address you have entered is incorrect";
+
+/* logout confirmation */
+"Are you sure you want to logout?" = "Are you sure you want to logout?";
+
+/* CANCEL ORDER */
+"CANCEL ORDER" = "CANCEL ORDER";
+
+/* No comment provided by engineer. */
+"Choose your monthly spends from the\nfollowing and learn how much you can earn." = "Choose your monthly spends from the\nfollowing and learn how much you can earn.";
+
+/* A failure message telling the user that their state needs not be empty */
+"city you have entered is incorrect" = "city you have entered is incorrect";
+
+/* A failure message telling the user that confirm pin should be same with new pin */
+"Confirm pin and New pin should be same" = "Confirm pin and New pin should be same";
+
+/* A failure message telling the user that new pin should not be empty */
+"Confirm pin should not be empty" = "Confirm pin should not be empty";
+
+/* A failure message telling the user that confirm pin should not be empty */
+"Confirm pin you have entered is incorrect" = "Confirm pin you have entered is incorrect";
+
+/* A failure message telling the user that their date of birth needs not be empty */
+"Date of birth you have entered is incorrect" = "Date of birth you have entered is incorrect";
+
+/* A failure message telling the user that their email needs not be empty */
+"Email you have entered is incorrect" = "Email you have entered is incorrect";
+
+/* A failure message telling the user that their email needs not be empty */
+"email you have entered is incorrect" = "email you have entered is incorrect";
+
+/* Enter Mobile number */
+"Enter Mobile number" = "Enter Mobile number";
+
+/* Enter New Mobile Number */
+"Enter New Mobile Number" = "Enter New Mobile Number";
+
+/* ENTER ONE TIME PASSWORD */
+"ENTER ONE TIME PASSWORD" = "ENTER ONE TIME PASSWORD";
+
+/* Enter OTP here */
+"Enter OTP here" = "Enter OTP here";
+
+/* A failure message telling the user that their address one needs not be empty */
+"first address you have entered is incorrect" = "first address you have entered is incorrect";
+
+/* A failure message telling the user that their name needs not be empty */
+"First Name should not be empty" = "First Name should not be empty";
+
+/* FORGOT PIN */
+"FORGOT PIN" = "FORGOT PIN";
+
+/* Forgot PIN? Generate new PIN */
+"Forgot PIN? Generate new PIN" = "Forgot PIN? Generate new PIN";
+
+/* GENERATE OTP */
+"GENERATE OTP" = "GENERATE OTP";
+
+/* VERIFY NOW */
+"Generate PIN" = "Generate PIN";
+
+/* GO TO CART */
+"GO TO CART" = "GO TO CART";
+
+/* GO TO WishList */
+"GO TO WishList" = "GO TO WishList";
+
+/* otp */
+"If you have not received otp, click here and we will resend it" = "If you have not received otp, click here and we will resend it";
+
+/* A failure message telling the user that their name needs not be empty */
+"Last Name should not be empty" = "Last Name should not be empty";
+
+/* Logout */
+"Logout" = "Logout";
+
+/* Message */
+"Message" = "Message";
+
+/* A failure message telling the user that their message should not be empty */
+"Message should not be empty." = "Message should not be empty.";
+
+/* A failure message telling the user that their mobile number needs to be correct
+   A failure message telling the user that their mobile number needs to be equal of 10/16 characters */
+"mobile number you have entered is incorrect" = "mobile number you have entered is incorrect";
+
+/* MyAccount-Cards Segment title */
+"My Cards" = "My Cards";
+
+/* MyAccount-Profile Segment title */
+"My Profile" = "My Profile";
+
+/* A failure message telling the user that their name needs not be empty */
+"Name you have entered is incorrect" = "Name you have entered is incorrect";
+
+/* A failure message telling the user that new pin should not be empty */
+"New pin should not be empty" = "New pin should not be empty";
+
+/* A failure message telling the user that new pin should not be empty */
+"New pin you have entered is incorrect" = "New pin you have entered is incorrect";
+
+/* A failure message telling the user that new pin should not be same with old pin */
+"Old pin and New pin should not be same" = "Old pin and New pin should not be same";
+
+/* A failure message telling the user that new pin should not be empty */
+"Old pin should not be empty" = "Old pin should not be empty";
+
+/* A failure message telling the user that new pin should not be empty */
+"Old pin you have entered is incorrect" = "Old pin you have entered is incorrect";
+
+/* Online partner segment title */
+"Other Online \nBrands" = "Other Online \nBrands";
+
+/* We have sent otp to your registered mobile number */
+"OTP sent to your registered mobile number \(getMobileNum())" = "OTP sent to your registered mobile number \(getMobileNum())";
+
+/* OTP you have entered is incorrect */
+"OTP you have entered is incorrect" = "OTP you have entered is incorrect";
+
+/* A failure message telling the user that their pincode needs not be empty */
+"pincode you have entered is incorrect" = "pincode you have entered is incorrect";
+
+/* A failure message telling the user that their pincode needs not be empty */
+"Pincode you have entered is incorrect" = "Pincode you have entered is incorrect";
+
+/* A failure message telling the user that pincode is invalid */
+"Pincode you've entered is invalid" = "Pincode you've entered is invalid";
+
+/* Please call our Customer Care number 1860-258-5000 to cancel the order. */
+"Please call our Customer Care number 1860-258-5000 to cancel the order." = "Please call our Customer Care number 1860-258-5000 to cancel the order.";
+
+/* Please Enter Your New Mobile Number */
+"Please Enter Your New Mobile Number" = "Please Enter Your New Mobile Number";
+
+/* A failure message telling the user that their address second needs not be empty */
+"second address you have entered is incorrect" = "second address you have entered is incorrect";
+
+/* Online partner segment title */
+"Shop Online \nVia PayBack" = "Shop Online \nVia PayBack";
+
+/* A failure message telling the user that their state needs not be empty */
+"state you have entered is incorrect" = "state you have entered is incorrect";
+
+/* STORE LOCATOR */
+"STORE LOCATOR" = "STORE LOCATOR";
+
+/* SUCCESS */
+"SUCCESS" = "SUCCESS";
+
+/* A failure message telling the user that their card/mobile number needs to be equal of 10/16 characters */
+"The Card Number / Mobile Number you have entered is incorrect" = "The Card Number / Mobile Number you have entered is incorrect";
+
+/* A failure message telling the user that their email address should not be empty */
+"The email address you have entered is incorrect" = "The email address you have entered is incorrect";
+
+/* A failure message telling the user that their card/mobile number needs to be equal of 10 characters */
+"The Mobile Number you have entered is incorrect" = "The Mobile Number you have entered is incorrect";
+
+/* A failure message telling the user that their date of birth needs not be empty */
+"The Mobile number you've entered is incorrect" = "The Mobile number you've entered is incorrect";
+
+/* A failure message telling the user that their PIN needs to be a minimum of 4 characters */
+"The PIN you have entered is incorrect" = "The PIN you have entered is incorrect";
+
+/* UPDATE MOBILE NUMBER */
+"UPDATE MOBILE NUMBER" = "UPDATE MOBILE NUMBER";
+
+/* VERIFY NOW */
+"VERIFY NOW" = "VERIFY NOW";
+
+/* We have sent otp to your new mobile number */
+"We have sent otp to your new mobile number" = "We have sent otp to your new mobile number";
+
+/* Your new PIN has been successfully sent to your Linked Mobile Number */
+"Your new PIN has been successfully sent to your Linked Mobile Number" = "Your new PIN has been successfully sent to your Linked Mobile Number";
+

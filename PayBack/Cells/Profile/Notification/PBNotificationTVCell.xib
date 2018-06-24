@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PBNotificationTVCell" rowHeight="215" id="W1L-CQ-3GY" customClass="PBNotificationTVCell" customModule="PayBack" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="220"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="W1L-CQ-3GY" id="12b-ut-9zc">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="219.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XGk-G0-oiw">
+                        <rect key="frame" x="5" y="10" width="330" height="210"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdX-BB-zEN">
+                                <rect key="frame" x="66" y="45" width="252" height="12.5"/>
+                                <string key="text">The PAYBACK Member agrees that by using the PAYBACK Card or by entering his/her PAYBACK number at www.payback.in or at any PAYBACK Partner online or offline, he/she is deemed to have read and understood the these terms and conditions of the Program and agrees to be contacted by the PAYBACK call-centre or its telemarketer for the purpose of its insurance business and confirms that he/she is bound by these terms and conditions and any changes to it from time to time and such other terms as specified from LSRPL from time to time.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notification" translatesAutoresizingMaskIntoConstraints="NO" id="SDZ-o7-MWi">
+                                <rect key="frame" x="12" y="12" width="31" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="Snp-Ft-CdV"/>
+                                    <constraint firstAttribute="width" constant="31" id="h5h-7x-Lhl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="an hour ago" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKq-yP-DQR">
+                                <rect key="frame" x="66" y="69.5" width="252" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.72687975890000001" green="0.72687975890000001" blue="0.72687975890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Review Received" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="z3d-iv-oJF">
+                                <rect key="frame" x="66" y="12" width="252" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Msf-rw-eTs">
+                                <rect key="frame" x="66" y="97.5" width="252" height="100.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Msf-rw-eTs" secondAttribute="height" multiplier="233:93" id="vZS-SX-ylp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YKq-yP-DQR" firstAttribute="leading" secondItem="z3d-iv-oJF" secondAttribute="leading" id="2sK-Th-68Y"/>
+                            <constraint firstItem="z3d-iv-oJF" firstAttribute="leading" secondItem="SDZ-o7-MWi" secondAttribute="trailing" constant="23" id="Fk8-wv-PTd"/>
+                            <constraint firstItem="mdX-BB-zEN" firstAttribute="top" secondItem="z3d-iv-oJF" secondAttribute="bottom" constant="12" id="GhP-ul-iEo"/>
+                            <constraint firstAttribute="trailing" secondItem="YKq-yP-DQR" secondAttribute="trailing" constant="12" id="HkE-kt-BhL"/>
+                            <constraint firstAttribute="bottom" secondItem="Msf-rw-eTs" secondAttribute="bottom" priority="999" constant="12" id="Kjm-XW-E9c"/>
+                            <constraint firstItem="SDZ-o7-MWi" firstAttribute="leading" secondItem="XGk-G0-oiw" secondAttribute="leading" constant="12" id="LJp-tW-Xb9"/>
+                            <constraint firstItem="SDZ-o7-MWi" firstAttribute="top" secondItem="XGk-G0-oiw" secondAttribute="top" constant="12" id="QSk-sb-IUj"/>
+                            <constraint firstItem="z3d-iv-oJF" firstAttribute="top" secondItem="XGk-G0-oiw" secondAttribute="top" constant="12" id="R39-7e-KnT"/>
+                            <constraint firstItem="YKq-yP-DQR" firstAttribute="top" secondItem="mdX-BB-zEN" secondAttribute="bottom" constant="12" id="aE3-xf-edS"/>
+                            <constraint firstAttribute="trailing" secondItem="Msf-rw-eTs" secondAttribute="trailing" constant="12" id="ery-8k-LAG"/>
+                            <constraint firstItem="Msf-rw-eTs" firstAttribute="top" secondItem="YKq-yP-DQR" secondAttribute="bottom" constant="12" id="fFj-xQ-TIM"/>
+                            <constraint firstAttribute="trailing" secondItem="mdX-BB-zEN" secondAttribute="trailing" constant="12" id="g7g-Cp-def"/>
+                            <constraint firstItem="Msf-rw-eTs" firstAttribute="leading" secondItem="z3d-iv-oJF" secondAttribute="leading" id="h43-2m-VDB"/>
+                            <constraint firstAttribute="trailing" secondItem="z3d-iv-oJF" secondAttribute="trailing" constant="12" id="mzC-Gf-vUm"/>
+                            <constraint firstItem="mdX-BB-zEN" firstAttribute="leading" secondItem="z3d-iv-oJF" secondAttribute="leading" id="rbD-X5-6ZC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="XGk-G0-oiw" firstAttribute="leading" secondItem="12b-ut-9zc" secondAttribute="leading" constant="5" id="SnP-Yw-djh"/>
+                    <constraint firstItem="XGk-G0-oiw" firstAttribute="top" secondItem="12b-ut-9zc" secondAttribute="top" constant="10" id="ari-2J-Jmk"/>
+                    <constraint firstAttribute="trailing" secondItem="XGk-G0-oiw" secondAttribute="trailing" constant="5" id="cSi-ij-s6O"/>
+                    <constraint firstAttribute="bottom" secondItem="XGk-G0-oiw" secondAttribute="bottom" constant="-0.5" id="s0d-s6-CUZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="mNotifiactionDetail" destination="mdX-BB-zEN" id="AMS-Bf-7P3"/>
+                <outlet property="mNotificationDate" destination="YKq-yP-DQR" id="HZL-lj-kg2"/>
+                <outlet property="mNotificationImage" destination="Msf-rw-eTs" id="cyF-hX-ZNJ"/>
+                <outlet property="mNotificationTitle" destination="z3d-iv-oJF" id="Jah-4K-fkG"/>
+            </connections>
+            <point key="canvasLocation" x="67" y="49"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="notification" width="15" height="19"/>
+        <image name="placeholder" width="64" height="64"/>
+    </resources>
+</document>

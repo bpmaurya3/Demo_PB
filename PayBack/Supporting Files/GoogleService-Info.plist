@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>600774853000-juelcnllje1e78sv0v2746q4t2krhr85.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.600774853000-juelcnllje1e78sv0v2746q4t2krhr85</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAMrSVfoOPs40_XdGaHN3idfqbtqb_3ZEQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>600774853000</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.paybackPush.Payback</string>
+	<key>PROJECT_ID</key>
+	<string>payback-1523267943669</string>
+	<key>STORAGE_BUCKET</key>
+	<string>payback-1523267943669.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:600774853000:ios:378dbca695ec698c</string>
+	<key>DATABASE_URL</key>
+	<string>https://payback-1523267943669.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,58 @@
+# Find all the available rules by running:
+# swiftlint rules
+
+disabled_rules:
+- trailing_whitespace
+- line_length
+- identifier_name
+- object_literal
+- file_header
+- number_separator
+- sorted_imports
+- nesting
+- closure_end_indentation
+- large_tuple
+- legacy_constructor
+- file_length
+- discarded_notification_center_observer
+- weak_delegate
+- cyclomatic_complexity
+
+opt_in_rules:
+- closure_end_indentation
+- closure_spacing
+- conditional_returns_on_newline
+- empty_count
+- explicit_init
+- file_header
+- first_where
+- nimble_operator
+- number_separator
+- object_literal
+- operator_usage_whitespace
+- overridden_super_call
+- private_outlet
+- prohibited_super_call
+- redundant_nil_coalescing
+- sorted_imports
+- statement_position
+- switch_case_on_newline
+- syntactic_sugar
+- trailing_newline
+
+included:
+- PayBack
+- PayBackTests
+
+excluded:
+- Carthage
+- Pods
+- Scripts
+- Vendor
+
+file_length:
+warning: 600
+error: 650
+
+statement_position:
+statement_mode: uncuddled_else

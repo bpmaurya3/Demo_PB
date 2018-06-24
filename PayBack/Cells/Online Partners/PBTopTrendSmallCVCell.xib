@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PBTopTrendSmallCVCell" id="gTV-IL-0wX" customClass="PBTopTrendSmallCVCell" customModule="PayBack" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="198" height="139"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="198" height="139"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sample_2" translatesAutoresizingMaskIntoConstraints="NO" id="Ras-vL-0UZ">
+                        <rect key="frame" x="5" y="44" width="55.5" height="85"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sample_3" translatesAutoresizingMaskIntoConstraints="NO" id="7Lq-dd-TkV">
+                        <rect key="frame" x="5" y="5" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="5XC-v6-Vfj"/>
+                            <constraint firstAttribute="height" constant="30" id="mW1-Nq-3yG"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BlackBerry z10 Black 16 GB" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="25E-bu-9gf">
+                        <rect key="frame" x="65.5" y="66" width="127.5" height="31.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rs. 25000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="ceT-ik-Roi">
+                        <rect key="frame" x="65.5" y="105.5" width="45.5" height="11"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        </variation>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KH8-PD-53b" customClass="SwitchView" customModule="PayBack" customModuleProvider="target">
+                        <rect key="frame" x="111" y="7" width="80" height="30"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="D5D-Fy-0Zg"/>
+                            <constraint firstAttribute="height" constant="30" id="gna-8u-nyF"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="trackOffFillColor">
+                                <color key="value" red="0.086274509799999996" green="0.37254901959999998" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="titleFontSize">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="image" keyPath="thumbImage" value="thumbIcon"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="KH8-PD-53b" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="7" id="4aD-UW-4bh"/>
+                <constraint firstAttribute="trailing" secondItem="KH8-PD-53b" secondAttribute="trailing" constant="7" id="6wg-A8-ddg"/>
+                <constraint firstAttribute="bottom" secondItem="Ras-vL-0UZ" secondAttribute="bottom" constant="10" id="8TX-Wo-EmY"/>
+                <constraint firstItem="ceT-ik-Roi" firstAttribute="top" secondItem="25E-bu-9gf" secondAttribute="bottom" constant="8" id="Bz9-40-Mf0"/>
+                <constraint firstItem="25E-bu-9gf" firstAttribute="leading" secondItem="Ras-vL-0UZ" secondAttribute="trailing" priority="999" constant="5" id="Dwx-W2-syn"/>
+                <constraint firstItem="7Lq-dd-TkV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="RIt-aX-wFT"/>
+                <constraint firstItem="Ras-vL-0UZ" firstAttribute="top" secondItem="7Lq-dd-TkV" secondAttribute="bottom" constant="9" id="Uj4-dr-MdJ"/>
+                <constraint firstItem="Ras-vL-0UZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="Xaa-ES-Qsc"/>
+                <constraint firstItem="ceT-ik-Roi" firstAttribute="leading" secondItem="25E-bu-9gf" secondAttribute="leading" id="aM4-kf-tL0"/>
+                <constraint firstItem="25E-bu-9gf" firstAttribute="top" secondItem="KH8-PD-53b" secondAttribute="bottom" constant="29" id="aaS-FY-ekS"/>
+                <constraint firstItem="7Lq-dd-TkV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="bKN-lw-oJ2"/>
+                <constraint firstAttribute="trailing" secondItem="25E-bu-9gf" secondAttribute="trailing" constant="5" id="kWT-mJ-v6Z"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ceT-ik-Roi" secondAttribute="trailing" priority="999" constant="5" id="lyy-5X-et4"/>
+                <constraint firstItem="Ras-vL-0UZ" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="40:100" id="qpA-Id-ozk"/>
+            </constraints>
+            <size key="customSize" width="198" height="139"/>
+            <connections>
+                <outlet property="mActualPrice" destination="ceT-ik-Roi" id="FLP-2P-pru"/>
+                <outlet property="mEarnPointView" destination="KH8-PD-53b" id="hVO-Yj-rEJ"/>
+                <outlet property="mPartnerImage" destination="7Lq-dd-TkV" id="EXL-wa-cGp"/>
+                <outlet property="mProductImage" destination="Ras-vL-0UZ" id="dOv-BY-IG7"/>
+                <outlet property="mProductName" destination="25E-bu-9gf" id="u7H-aD-8YA"/>
+            </connections>
+            <point key="canvasLocation" x="-144" y="48.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Sample_2" width="800" height="799"/>
+        <image name="Sample_3" width="512" height="512"/>
+        <image name="thumbIcon" width="24" height="23"/>
+    </resources>
+</document>

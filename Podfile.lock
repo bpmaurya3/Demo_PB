@@ -1,0 +1,153 @@
+PODS:
+  - Base64 (1.1.2)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Crashlytics (3.10.2):
+    - Fabric (~> 1.7.7)
+  - Fabric (1.7.7)
+  - FacebookCore (0.3.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.27)
+  - FBSDKCoreKit (4.33.0):
+    - Bolts (~> 1.7)
+  - Firebase/Core (5.1.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.0.1)
+  - Firebase/CoreOnly (5.1.0):
+    - FirebaseCore (= 5.0.2)
+  - Firebase/Performance (5.1.0):
+    - Firebase/Core
+    - FirebasePerformance (= 2.0.0)
+  - FirebaseAnalytics (5.0.1):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.0.2):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (3.0.0):
+    - FirebaseCore (~> 5.0)
+  - FirebasePerformance (2.0.0):
+    - FirebaseAnalytics (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - FirebaseSwizzlingUtilities/ISASwizzling (~> 2.0)
+    - FirebaseSwizzlingUtilities/MethodSwizzling (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.5)
+  - FirebaseSwizzlingUtilities/ISASwizzling (2.0.0)
+  - FirebaseSwizzlingUtilities/MethodSwizzling (2.0.0):
+    - FirebaseCore (~> 5.0)
+  - Google-Mobile-Ads-SDK (7.31.0)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GTMSessionFetcher/Core (1.1.15)
+  - JWT (3.0.0-beta.8):
+    - Base64 (~> 1.1.2)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - Protobuf (3.5.0)
+  - Pushwoosh (5.3.7)
+  - ReachabilitySwift (3)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SwiftyJSON (4.1.0)
+  - TGPControls (4.0.0)
+  - youtube-ios-player-helper (0.1.6)
+
+DEPENDENCIES:
+  - Crashlytics (~> 3.10.2)
+  - Fabric (~> 1.7.7)
+  - FacebookCore
+  - Firebase/Core
+  - Firebase/Performance
+  - Google-Mobile-Ads-SDK
+  - GoogleMaps (~> 2.7.0)
+  - GooglePlaces (~> 2.7.0)
+  - JWT (~> 3.0.0-beta.7)
+  - Pushwoosh (~> 5.3.7)
+  - ReachabilitySwift (~> 3)
+  - SDWebImage (~> 4.1)
+  - SwiftyJSON (~> 4.1.0)
+  - TGPControls (~> 4.0.0)
+  - youtube-ios-player-helper (~> 0.1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Base64
+    - Bolts
+    - Crashlytics
+    - Fabric
+    - FacebookCore
+    - FBSDKCoreKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebasePerformance
+    - FirebaseSwizzlingUtilities
+    - Google-Mobile-Ads-SDK
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - JWT
+    - nanopb
+    - Protobuf
+    - Pushwoosh
+    - ReachabilitySwift
+    - SDWebImage
+    - SwiftyJSON
+    - TGPControls
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Crashlytics: 0360624eea1c978a743feddb2fb1ef8b37fb7a0d
+  Fabric: bda89e242bce1b7b8ab264248cf3407774ce0095
+  FacebookCore: 3ffa190a3f1f96cec0e44d3fc221bc322c595ffa
+  FBSDKCoreKit: 572b047a7e029bc44542bcf8a59414e7ff2b543e
+  Firebase: e08fb0795f35707aeb1d8a715c731c45bdf6fd56
+  FirebaseAnalytics: b3628aea54c50464c32c393fb2ea032566e7ecc2
+  FirebaseCore: b81044df1044c0857a0737c6324678b72d4f7f00
+  FirebaseInstanceID: 83e0040351565df711a5db3d8ebe5ea21aca998a
+  FirebasePerformance: 1ec6c40e5dad2543ca4c4f25d15168bde6322c2c
+  FirebaseSwizzlingUtilities: 6c22677c50d0b6f5f0dc637c1233f13694a3003f
+  Google-Mobile-Ads-SDK: 6e529e748b45507a2ca904e0b5a52669ba3920c4
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GTMSessionFetcher: 5fa5b80fd20e439ef5f545fb2cb3ca6c6714caa2
+  JWT: 6e7ec473b6febcb7498affc84f0e75d393914411
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  Protobuf: 8a9838fba8dae3389230e1b7f8c104aa32389c03
+  Pushwoosh: 91a4a341a37a5ce9f23cba68a909950fced10a8f
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  TGPControls: d7ab5a338746c100b2ae57f6b6cedee7151f116a
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
+
+PODFILE CHECKSUM: 685c590edd4e1ee75feb19ae7e885a84e9289002
+
+COCOAPODS: 1.5.3

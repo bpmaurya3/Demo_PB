@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PBRechargeTVCell" id="KGk-i7-Jjw" customClass="PBRechargeTVCell" customModule="PayBack" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="119.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jSx-jw-clZ">
+                        <rect key="frame" x="0.0" y="10" width="400" height="110"/>
+                        <subviews>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M49-XH-QKS">
+                                <rect key="frame" x="15" y="10" width="132.5" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="M49-XH-QKS" secondAttribute="height" multiplier="65:42" constant="-6.7857142857142776" id="ICW-j0-jSZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Furnish your bachelor's pad up to 60% off Furnish your bachelor's pad up to 60% off" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MxL-Xm-eqa">
+                                <rect key="frame" x="155" y="28.5" width="237" height="31.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snapdeal" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UqV-hk-301">
+                                <rect key="frame" x="155" y="5" width="237" height="21.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbG-dK-L35">
+                                <rect key="frame" x="262" y="74.5" width="130" height="27.5"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="GET OFFER">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="getOfferButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="YQI-FN-o6h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="UqV-hk-301" secondAttribute="trailing" constant="8" id="1Ru-7X-kBy"/>
+                            <constraint firstItem="UqV-hk-301" firstAttribute="top" secondItem="M49-XH-QKS" secondAttribute="top" constant="-5" id="4Sa-at-dgw"/>
+                            <constraint firstItem="vbG-dK-L35" firstAttribute="height" secondItem="jSx-jw-clZ" secondAttribute="height" multiplier="30:120" id="5Kw-bc-heg"/>
+                            <constraint firstItem="MxL-Xm-eqa" firstAttribute="top" secondItem="UqV-hk-301" secondAttribute="bottom" constant="2" id="6SA-hc-ekV"/>
+                            <constraint firstItem="vbG-dK-L35" firstAttribute="width" secondItem="jSx-jw-clZ" secondAttribute="width" multiplier="13:40" id="FS4-4r-UHZ"/>
+                            <constraint firstItem="M49-XH-QKS" firstAttribute="leading" secondItem="jSx-jw-clZ" secondAttribute="leading" constant="15" id="Igy-hr-0fT"/>
+                            <constraint firstAttribute="bottom" secondItem="vbG-dK-L35" secondAttribute="bottom" constant="8" id="KVd-Z9-7ah"/>
+                            <constraint firstItem="UqV-hk-301" firstAttribute="leading" secondItem="M49-XH-QKS" secondAttribute="trailing" constant="7.5" id="P0X-qe-Jy2"/>
+                            <constraint firstItem="MxL-Xm-eqa" firstAttribute="trailing" secondItem="UqV-hk-301" secondAttribute="trailing" id="VY3-ZC-WFN"/>
+                            <constraint firstAttribute="trailing" secondItem="vbG-dK-L35" secondAttribute="trailing" constant="8" id="VuG-GJ-eh6"/>
+                            <constraint firstItem="MxL-Xm-eqa" firstAttribute="leading" secondItem="UqV-hk-301" secondAttribute="leading" id="fSq-AC-1QF"/>
+                            <constraint firstItem="M49-XH-QKS" firstAttribute="width" secondItem="jSx-jw-clZ" secondAttribute="width" multiplier="130:400" constant="2.5" id="gUt-Kp-yo2"/>
+                            <constraint firstItem="M49-XH-QKS" firstAttribute="centerY" secondItem="jSx-jw-clZ" secondAttribute="centerY" id="raM-J5-Hiy"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="jSx-jw-clZ" secondAttribute="bottom" id="JcS-Jn-WvF"/>
+                    <constraint firstItem="jSx-jw-clZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="RDN-Vg-Qxf"/>
+                    <constraint firstAttribute="trailing" secondItem="jSx-jw-clZ" secondAttribute="trailing" id="r30-4P-81X"/>
+                    <constraint firstItem="jSx-jw-clZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="wG3-TM-lMY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="partnerImageView" destination="M49-XH-QKS" id="twp-LF-RjQ"/>
+                <outlet property="partnerInfo" destination="MxL-Xm-eqa" id="AgA-52-BVZ"/>
+                <outlet property="partnerName" destination="UqV-hk-301" id="NTa-Tj-VDi"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

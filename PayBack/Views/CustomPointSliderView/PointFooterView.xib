@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PointFooterView" customModule="PayBack" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="190"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z0a-Lp-oIT">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <color key="backgroundColor" red="0.89219623800000003" green="0.063174970450000006" blue="0.43181562420000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="xfI-fK-bTk">
+                            <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                        </constraint>
+                    </constraints>
+                    <state key="normal" title="YOU CAN EARN">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    </variation>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4N2-al-XSh">
+                    <rect key="frame" x="0.0" y="44" width="320" height="86"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3V-sS-nqH">
+                            <rect key="frame" x="15" y="43" width="0.0" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="=" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9XD-ZZ-kVH" customClass="DesignableLabel" customModule="PayBack" customModuleProvider="target">
+                            <rect key="frame" x="141" y="24" width="38" height="38"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="38" id="F9h-aB-dUK"/>
+                                <constraint firstAttribute="height" constant="38" id="f2A-Ex-WQ3"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="19"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="maskToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                            </variation>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0DP-xu-YI6">
+                            <rect key="frame" x="295" y="43" width="0.0" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.39215686274509803" blue="0.69019607843137254" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                            </variation>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.90806150436401367" green="0.96430641412734985" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="U3V-sS-nqH" firstAttribute="centerY" secondItem="4N2-al-XSh" secondAttribute="centerY" id="7VL-9k-oJ8"/>
+                        <constraint firstItem="U3V-sS-nqH" firstAttribute="leading" secondItem="4N2-al-XSh" secondAttribute="leading" constant="15" id="8nU-pg-glO"/>
+                        <constraint firstAttribute="trailing" secondItem="0DP-xu-YI6" secondAttribute="trailing" constant="25" id="CGM-za-9Vo"/>
+                        <constraint firstItem="9XD-ZZ-kVH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="U3V-sS-nqH" secondAttribute="trailing" constant="10" id="D8z-61-qCu"/>
+                        <constraint firstAttribute="height" constant="86" id="G02-Fw-Pnu"/>
+                        <constraint firstItem="9XD-ZZ-kVH" firstAttribute="centerX" secondItem="4N2-al-XSh" secondAttribute="centerX" id="XXI-DR-ZU4"/>
+                        <constraint firstItem="9XD-ZZ-kVH" firstAttribute="centerY" secondItem="4N2-al-XSh" secondAttribute="centerY" id="b0e-Wz-cs7"/>
+                        <constraint firstItem="0DP-xu-YI6" firstAttribute="centerY" secondItem="4N2-al-XSh" secondAttribute="centerY" id="lrW-jl-sDk"/>
+                        <constraint firstItem="0DP-xu-YI6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="9XD-ZZ-kVH" secondAttribute="trailing" constant="10" id="voF-zD-uAT"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can earn upto 4 points on every Rs. 100 spent" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcV-Bg-O55">
+                    <rect key="frame" x="15" y="140" width="290" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.19607843137254902" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    </variation>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="4N2-al-XSh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="2OS-cZ-zoc"/>
+                <constraint firstItem="z0a-Lp-oIT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Bp5-n2-SD1"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="rcV-Bg-O55" secondAttribute="trailing" constant="15" id="EIE-iF-VV9"/>
+                <constraint firstItem="z0a-Lp-oIT" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="GvH-W5-XT2"/>
+                <constraint firstItem="4N2-al-XSh" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="HVo-8v-moy"/>
+                <constraint firstItem="rcV-Bg-O55" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="-10" id="WUp-Ux-bFW"/>
+                <constraint firstItem="rcV-Bg-O55" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="WaC-EA-djb"/>
+                <constraint firstItem="z0a-Lp-oIT" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ZCO-hw-wrA"/>
+                <constraint firstItem="rcV-Bg-O55" firstAttribute="top" secondItem="4N2-al-XSh" secondAttribute="bottom" constant="10" id="lMs-Ey-Cot"/>
+                <constraint firstItem="4N2-al-XSh" firstAttribute="top" secondItem="z0a-Lp-oIT" secondAttribute="bottom" id="nGS-3N-3sK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="InstructionLabel" destination="rcV-Bg-O55" id="XLQ-g0-K4u"/>
+                <outlet property="earnButton" destination="z0a-Lp-oIT" id="qwN-PL-wh7"/>
+                <outlet property="equalLabel" destination="9XD-ZZ-kVH" id="Ltc-ig-VHh"/>
+                <outlet property="pointPerMonthLabel" destination="U3V-sS-nqH" id="MVM-lH-7Zu"/>
+                <outlet property="priceLabel" destination="0DP-xu-YI6" id="jQM-dH-mKZ"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="-115"/>
+        </view>
+    </objects>
+</document>

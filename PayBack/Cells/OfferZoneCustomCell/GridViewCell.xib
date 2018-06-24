@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GridViewCell" id="gTV-IL-0wX" customClass="GridViewCell" customModule="PayBack" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="220" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="220" height="120"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JB6-qm-dxP">
+                        <rect key="frame" x="0.0" y="0.0" width="220" height="120"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo2" translatesAutoresizingMaskIntoConstraints="NO" id="0GN-xJ-LgK">
+                                <rect key="frame" x="0.0" y="0.0" width="220" height="120"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AOl-H5-URH">
+                                <rect key="frame" x="0.0" y="0.0" width="220" height="120"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="0.5" colorSpace="calibratedRGB"/>
+                            </view>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="v29-dy-a8O">
+                                <rect key="frame" x="0.0" y="39.5" width="47" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="47" id="YVu-Cu-jgN"/>
+                                    <constraint firstAttribute="height" secondItem="v29-dy-a8O" secondAttribute="width" multiplier="81:93" id="qsd-ho-Qub"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In - Store Offer" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" minimumFontSize="6" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xTh-BA-IpW">
+                                <rect key="frame" x="56" y="49.5" width="155" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0GN-xJ-LgK" firstAttribute="leading" secondItem="JB6-qm-dxP" secondAttribute="leading" id="0Tb-9P-K7L"/>
+                            <constraint firstAttribute="bottom" secondItem="0GN-xJ-LgK" secondAttribute="bottom" id="6GU-c9-6In"/>
+                            <constraint firstAttribute="trailing" secondItem="xTh-BA-IpW" secondAttribute="trailing" constant="9" id="8hw-3A-zD5"/>
+                            <constraint firstItem="v29-dy-a8O" firstAttribute="leading" secondItem="JB6-qm-dxP" secondAttribute="leading" id="Cft-qk-n9j"/>
+                            <constraint firstAttribute="trailing" secondItem="0GN-xJ-LgK" secondAttribute="trailing" id="LJ9-Mc-oCq"/>
+                            <constraint firstItem="v29-dy-a8O" firstAttribute="centerY" secondItem="JB6-qm-dxP" secondAttribute="centerY" id="RIv-E4-XuT"/>
+                            <constraint firstAttribute="bottom" secondItem="AOl-H5-URH" secondAttribute="bottom" id="Rtc-pv-Cto"/>
+                            <constraint firstAttribute="trailing" secondItem="AOl-H5-URH" secondAttribute="trailing" id="XsK-fh-Rmx"/>
+                            <constraint firstItem="AOl-H5-URH" firstAttribute="leading" secondItem="JB6-qm-dxP" secondAttribute="leading" id="guw-g5-eoc"/>
+                            <constraint firstItem="AOl-H5-URH" firstAttribute="top" secondItem="JB6-qm-dxP" secondAttribute="top" id="jWP-Zh-JcL"/>
+                            <constraint firstItem="0GN-xJ-LgK" firstAttribute="top" secondItem="JB6-qm-dxP" secondAttribute="top" id="kRF-iq-vRu"/>
+                            <constraint firstItem="xTh-BA-IpW" firstAttribute="leading" secondItem="v29-dy-a8O" secondAttribute="trailing" constant="9" id="kzP-Nl-PNZ"/>
+                            <constraint firstItem="xTh-BA-IpW" firstAttribute="centerY" secondItem="JB6-qm-dxP" secondAttribute="centerY" id="lMZ-KV-RIQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="JB6-qm-dxP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="DQj-Re-tVd"/>
+                <constraint firstAttribute="bottom" secondItem="JB6-qm-dxP" secondAttribute="bottom" id="KvI-eU-O0a"/>
+                <constraint firstItem="JB6-qm-dxP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="TEW-Is-Isb"/>
+                <constraint firstAttribute="trailing" secondItem="JB6-qm-dxP" secondAttribute="trailing" id="haJ-i9-zxQ"/>
+            </constraints>
+            <connections>
+                <outlet property="mBaseImageView" destination="0GN-xJ-LgK" id="GvE-G2-QAQ"/>
+                <outlet property="mIconImageView" destination="v29-dy-a8O" id="Wxy-mN-zKv"/>
+                <outlet property="mIconLabel" destination="xTh-BA-IpW" id="9OU-Na-X3G"/>
+                <outlet property="opacityView" destination="AOl-H5-URH" id="XPt-uZ-Iq3"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="demo2" width="414" height="276"/>
+    </resources>
+</document>

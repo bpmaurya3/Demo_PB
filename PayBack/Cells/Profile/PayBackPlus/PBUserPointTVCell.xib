@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PBUserPointTVCell" rowHeight="114" id="KGk-i7-Jjw" customClass="PBUserPointTVCell" customModule="PayBack" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="114"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="113.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="kEd-39-vK9">
+                        <rect key="frame" x="23" y="23.5" width="132" height="49"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*P 2500" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWQ-6i-iox">
+                                <rect key="frame" x="0.0" y="0.0" width="132" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.89411764709999997" green="0.1058823529" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Point Balance" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="b36-Qx-v9c">
+                                <rect key="frame" x="0.0" y="33" width="132" height="16"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paybackpluscard" translatesAutoresizingMaskIntoConstraints="NO" id="XzE-1R-kIU">
+                        <rect key="frame" x="166.5" y="8" width="130.5" height="80"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="127" id="IUT-ie-A2o"/>
+                            <constraint firstAttribute="height" secondItem="XzE-1R-kIU" secondAttribute="width" multiplier="78:127" id="OU7-A1-AVz"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQG-XQ-1we">
+                        <rect key="frame" x="176.5" y="66" width="110.5" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="oO4-g8-czR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.90580803155899048" green="0.8863254189491272" blue="0.92930108308792114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="kEd-39-vK9" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="4PM-cb-IOK"/>
+                    <constraint firstItem="XzE-1R-kIU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="kEd-39-vK9" secondAttribute="trailing" constant="10" id="6ai-1t-kNi"/>
+                    <constraint firstItem="KQG-XQ-1we" firstAttribute="bottom" secondItem="XzE-1R-kIU" secondAttribute="bottom" constant="-5" id="GP2-wi-2re"/>
+                    <constraint firstItem="KQG-XQ-1we" firstAttribute="leading" secondItem="XzE-1R-kIU" secondAttribute="leading" constant="10" id="c4w-Hh-aiY"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="XzE-1R-kIU" secondAttribute="bottom" id="dEK-ig-tKu"/>
+                    <constraint firstItem="KQG-XQ-1we" firstAttribute="trailing" secondItem="XzE-1R-kIU" secondAttribute="trailing" constant="-10" id="mk1-gp-gay"/>
+                    <constraint firstItem="XzE-1R-kIU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="u2j-Bx-2wx"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="XzE-1R-kIU" secondAttribute="trailing" constant="15" id="vXX-2U-nLK"/>
+                    <constraint firstItem="kEd-39-vK9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="15" id="ydC-94-Igk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.90980392156862744" green="0.88627450980392153" blue="0.93333333333333335" alpha="0.0" colorSpace="calibratedRGB"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cardName" destination="KQG-XQ-1we" id="lhA-wp-lVo"/>
+                <outlet property="mImageView" destination="XzE-1R-kIU" id="n8D-Ns-sPK"/>
+                <outlet property="mPointBalance" destination="NWQ-6i-iox" id="TnA-Eq-cyX"/>
+                <outlet property="mPointBalanceLabel" destination="b36-Qx-v9c" id="EkE-oB-E6J"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="75"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="paybackpluscard" width="127" height="80"/>
+    </resources>
+</document>

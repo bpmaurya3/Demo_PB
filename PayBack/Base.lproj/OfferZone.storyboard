@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="u2a-fJ-hS8">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Offer LandingVC-->
+        <scene sceneID="YmL-ks-4Uj">
+            <objects>
+                <viewController storyboardIdentifier="OfferLandingVC" id="u2a-fJ-hS8" customClass="OfferLandingVC" customModule="PayBack" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vM7-GD-eTz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hgY-DA-Vkz" userLabel="navigationHeader" customClass="DesignableNav" customModule="PayBack" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="320" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="250" constant="49" id="EP8-9f-LIh">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="65"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="49" id="rtF-WQ-u4R">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="65"/>
+                                    </constraint>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="OFFER ZONE"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="got-MB-qAj">
+                                <rect key="frame" x="0.0" y="113" width="320" height="455"/>
+                                <color key="backgroundColor" red="0.89626932144165039" green="0.95238679647445679" blue="0.99826890230178833" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hgY-DA-Vkz" firstAttribute="leading" secondItem="86p-Tt-lQd" secondAttribute="leading" id="1b5-zL-2gs"/>
+                            <constraint firstItem="got-MB-qAj" firstAttribute="trailing" secondItem="86p-Tt-lQd" secondAttribute="trailing" id="VwD-fz-ZIt"/>
+                            <constraint firstItem="got-MB-qAj" firstAttribute="leading" secondItem="86p-Tt-lQd" secondAttribute="leading" id="YB3-RW-PDY"/>
+                            <constraint firstItem="hgY-DA-Vkz" firstAttribute="top" secondItem="86p-Tt-lQd" secondAttribute="top" id="bk2-P7-lsU"/>
+                            <constraint firstItem="hgY-DA-Vkz" firstAttribute="trailing" secondItem="86p-Tt-lQd" secondAttribute="trailing" id="mBH-CU-VG4"/>
+                            <constraint firstItem="86p-Tt-lQd" firstAttribute="bottom" secondItem="got-MB-qAj" secondAttribute="bottom" id="nYV-ik-tLX"/>
+                            <constraint firstItem="got-MB-qAj" firstAttribute="top" secondItem="hgY-DA-Vkz" secondAttribute="bottom" id="oT8-0R-vdi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="86p-Tt-lQd"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="mTableView" destination="got-MB-qAj" id="IDY-3J-Ncn"/>
+                        <outlet property="navigationView" destination="hgY-DA-Vkz" id="90I-qC-HPm"/>
+                        <segue destination="HtA-cI-lFS" kind="show" identifier="zoneToOnlineOffers" id="dr6-00-EmJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cpl-LV-dkI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2126.25" y="497.53521126760563"/>
+        </scene>
+        <!--Online OffersVC-->
+        <scene sceneID="bzH-Jv-1E2">
+            <objects>
+                <viewController storyboardIdentifier="OnlineOffersVC" id="HtA-cI-lFS" customClass="OnlineOffersVC" customModule="PayBack" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hRv-H3-HOR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QtU-OF-m9F" userLabel="navigationHeader" customClass="DesignableNav" customModule="PayBack" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="320" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="49" id="oHq-gg-Lml">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="65"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" priority="250" constant="49" id="tP2-dN-Iat">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="65"/>
+                                    </constraint>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="ONLINE OFFERS"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RbF-jd-W5J" customClass="PBCarousel" customModule="PayBack" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="113" width="320" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="136" id="qDd-6p-NhG"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o8N-RA-P7N" customClass="CustomSegmentView" customModule="PayBack" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="249" width="320" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="LAB-Bv-5jn"/>
+                                </constraints>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ZSw-BV-FvB">
+                                <rect key="frame" x="0.0" y="302" width="320" height="266"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rJR-bo-Z0B">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpU-iK-Gid">
+                                <rect key="frame" x="97" y="352" width="125" height="30"/>
+                                <color key="backgroundColor" red="0.90263170000000004" green="0.1151063666" blue="0.42888641360000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="  Enable Location  ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="enableLocationButtonAction:" destination="HtA-cI-lFS" eventType="touchUpInside" id="hPz-C1-1Mz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RbF-jd-W5J" firstAttribute="top" secondItem="QtU-OF-m9F" secondAttribute="bottom" id="3nb-VS-4ad"/>
+                            <constraint firstItem="o8N-RA-P7N" firstAttribute="leading" secondItem="wKN-CW-bPW" secondAttribute="leading" id="8ik-Qy-Zjh"/>
+                            <constraint firstItem="QtU-OF-m9F" firstAttribute="leading" secondItem="wKN-CW-bPW" secondAttribute="leading" id="D1a-qO-ASv"/>
+                            <constraint firstItem="ZSw-BV-FvB" firstAttribute="bottom" secondItem="wKN-CW-bPW" secondAttribute="bottom" id="DdX-9m-d8e"/>
+                            <constraint firstItem="ZSw-BV-FvB" firstAttribute="top" secondItem="o8N-RA-P7N" secondAttribute="bottom" id="L5M-cW-kIQ"/>
+                            <constraint firstItem="ZSw-BV-FvB" firstAttribute="leading" secondItem="wKN-CW-bPW" secondAttribute="leading" id="OAl-ek-LSh"/>
+                            <constraint firstItem="lpU-iK-Gid" firstAttribute="centerX" secondItem="ZSw-BV-FvB" secondAttribute="centerX" id="ThC-UO-cTc"/>
+                            <constraint firstItem="QtU-OF-m9F" firstAttribute="top" secondItem="wKN-CW-bPW" secondAttribute="top" id="W0s-Tu-F9K"/>
+                            <constraint firstItem="RbF-jd-W5J" firstAttribute="trailing" secondItem="wKN-CW-bPW" secondAttribute="trailing" id="Y89-lL-3wf"/>
+                            <constraint firstItem="o8N-RA-P7N" firstAttribute="trailing" secondItem="wKN-CW-bPW" secondAttribute="trailing" id="aD9-gb-F1u"/>
+                            <constraint firstItem="o8N-RA-P7N" firstAttribute="top" secondItem="RbF-jd-W5J" secondAttribute="bottom" id="bGo-Bi-bq0"/>
+                            <constraint firstItem="RbF-jd-W5J" firstAttribute="leading" secondItem="wKN-CW-bPW" secondAttribute="leading" id="bdJ-K6-5Nd"/>
+                            <constraint firstItem="QtU-OF-m9F" firstAttribute="trailing" secondItem="wKN-CW-bPW" secondAttribute="trailing" id="uUi-UM-otD"/>
+                            <constraint firstItem="ZSw-BV-FvB" firstAttribute="trailing" secondItem="wKN-CW-bPW" secondAttribute="trailing" id="unb-mA-q9O"/>
+                            <constraint firstItem="lpU-iK-Gid" firstAttribute="top" secondItem="ZSw-BV-FvB" secondAttribute="top" constant="50" id="yV8-eg-3RW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wKN-CW-bPW"/>
+                    </view>
+                    <connections>
+                        <outlet property="carouselView" destination="RbF-jd-W5J" id="zBj-yJ-EGN"/>
+                        <outlet property="carouselViewHeightContraint" destination="qDd-6p-NhG" id="PsT-DB-UbR"/>
+                        <outlet property="collectionView" destination="ZSw-BV-FvB" id="UBw-LA-awI"/>
+                        <outlet property="enableLocationButton" destination="lpU-iK-Gid" id="qF5-CY-15o"/>
+                        <outlet property="navigationView" destination="QtU-OF-m9F" id="uRg-bn-0zW"/>
+                        <outlet property="segmentView" destination="o8N-RA-P7N" id="BwF-w1-Vke"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7KO-jJ-KiJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3093.75" y="165.8450704225352"/>
+        </scene>
+    </scenes>
+</document>
